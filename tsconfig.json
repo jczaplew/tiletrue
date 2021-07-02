@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+      "preserveConstEnums": true,
+      "typeRoots": [
+            "./node_modules/@types",
+            "./types/*"
+        ]
+    },
+    "include": ["*"],
+    "exclude": ["node_modules", "**/*.spec.ts", "./types/*"]
+  }
