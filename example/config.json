@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Native Lands",
+        "zoom": 10,
+        "url": "https://vectortiles.gaiagps.com/native-lands/{z}/{x}/{y}.pbf",
+        "layers": ["lands"]
+    }
+]
